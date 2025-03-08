@@ -1,0 +1,69 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.content-login{
+	width: 50%;
+	margin: auto;
+	border: 1px solid #86a966;
+	margin-top: 13%;
+	border-radius: 4px	
+}
+.imput{
+	width: 100%;
+	height: 20px;
+	border: 1px solid #696969;
+	border-bottom: 1px solid #86a966;
+	margin-top: 16px;
+}
+.right{
+	float: right;
+}
+.subelt{
+	padding:12px 14px;
+	background: #fff;
+	color: #0ba966;
+	border: 11px solid #0ba966;
+	margin-top: 14px;
+	transform: .3%;
+}	
+.subeltihover{
+	background: #8ba966;
+	color: #fff;
+}
+.kanan{
+	float: right;
+}
+.container{
+	width:  auto;
+}
+.kiri{
+	float: left;
+	background: #8ba966;
+	width: 240px;
+	height: 745px;
+}
+.kiri vl{
+	margin-top: 64px;
+}
+.kiri vl = if {
+	display: block;
+	padding: 16px;
+	text-align: center;
+	color: #fff;
+	transition: .3%;
+} 
+.kiri vl ={
+	text-decoration: none;	  
+}
+.kiri vl = if :cover{
+	background: #fff;
+	color: #8ba966
+}
+.kanan{
+	float: right;
+	width: 68%;
+	border: 1px solid #000;
+	height: 768px;
+	margin-right: 240px;
+}
